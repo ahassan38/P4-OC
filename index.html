@@ -9,7 +9,6 @@
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
     
@@ -38,7 +37,8 @@
     
 </head>
 <body>
-
+<!-- Principal conteneur -->
+<main class="page-container" id="Accueil">
 	<!-- header -->
 	<header class="bloc bgc-white l-bloc" id="bloc-0">
 	  <div class="container bloc-sm">
@@ -58,7 +58,7 @@
 		  <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 			<ul class="site-navigation nav navbar-nav">
 			 <li>
-				<a href="#Accueil" class="item-nav item-nav1">Accueil</a>
+				<a href="#Accueil" class="item-nav item-nav1 active">Accueil</a>
 			 </li>
 			 <li>
 				<a href="#Services" class="item-nav item-nav2">Services</a>
@@ -79,8 +79,7 @@
 	</header>
 	<!-- header END -->
 
-	<!-- Principal conteneur -->
- <main class="page-container" id="Accueil">
+	
 
 	<!-- bloc-1-presentation -->
 	<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"id="bloc-1-hero">
@@ -116,7 +115,7 @@
 		<div class="row voffset-lg med-width-whitespace">
 		  <div class="col-sm-4">
 			<div class="text-center">
-			  <span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+				<img src="img/icon1.webp" width="100" height="75" alt="Image représentant le Web Design">
 			</div>
 			<h3 class="mg-md text-center">Web design</h3>
 			<p class="text-center font-18">
@@ -127,7 +126,7 @@
 		  </div>
 		  <div class="col-sm-4">
 			<div class="text-center">
-			  <span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+				<img src="img/icon2.webp" width="86" height="75" alt="Image représentant la stratégie">
 			</div>
 			<h3 class="mg-md text-center">Stratégie</h3>
 			<p class="text-center font-18">
@@ -138,7 +137,7 @@
 		  </div>
 		  <div class="col-sm-4">
 			<div class="text-center">
-			  <span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+				<img src="img/icon3.webp" width="75" height="75" alt="Image représentant les illustrations">
 			</div>
 			<h3 class="mg-md text-center">Illustrations</h3>
 			<p class="text-center font-18">
@@ -249,7 +248,7 @@
 		<div class="row tight-width-whitespace portfolio-row">
 		  <div class="col-sm-6">
 			<a id="image-3"
-			  href="img/3.bmp"
+			  href="img/3.webp"
 			  data-lightbox="img/3.bmp"
 			  data-gallery-id="gallery-1"
 			  data-caption="Création d'un site internet pour un voyageur"
@@ -266,7 +265,7 @@
 		  </div>
 		  <div class="col-sm-6">
 			<a id="image-4"
-			  href="img/4.bmp"
+			  href="img/4.webp"
 			  data-lightbox="img/4.bmp"
 			  data-gallery-id="gallery-1"
 			  data-caption="Conception d'un site pour une agence de mariage"
@@ -304,8 +303,7 @@
 	  </div>
 	</section>
 	<!-- bloc-5-cta END -->
-</main>
-	<!-- Principal conteneur END -->
+
 	<!-- Footer - bloc-8 -->
 	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	  <div class="container bloc-sm">
@@ -361,5 +359,7 @@
 	  </div>
 	</footer>
 	<!-- Footer - bloc-8 END -->
+</main>
+<!-- Principal conteneur END -->
  </body>
 </html>

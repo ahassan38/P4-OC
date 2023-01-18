@@ -1188,6 +1188,10 @@ blockquote p{
     display: flex;
     justify-content: center;
 }
+
+.col-sm-4{
+    margin-top: 4rem;
+}
 .col-sm-4.links{
     width:max-content;
     margin-top: 1rem;
@@ -1255,9 +1259,6 @@ blockquote p{
 }
 #bloc-6{
     padding-top: 90px;
-}
-.text-resize{
-    font-size:1.3rem!important;
 }
 
 .border-seo:focus{
