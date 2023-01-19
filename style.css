@@ -109,8 +109,6 @@ a:hover {
 }
 
     
-    
-
 .texture-paper::before {
     background-size: 280px 280px;
 }
@@ -1164,8 +1162,8 @@ blockquote p{
 }
 
 #bloc-5-cta h2{
-    
-    color:white!important;
+    text-shadow: 0 0 30px #fff!important;
+    color:black!important;
     font-weight: 900;
     margin-top: 50px;
 }
