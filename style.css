@@ -112,7 +112,6 @@ a:hover {
     
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
     
@@ -1165,8 +1164,8 @@ blockquote p{
 }
 
 #bloc-5-cta h2{
-    text-shadow: 0 0 30px #fff!important;
-    color:black!important;
+    
+    color:white!important;
     font-weight: 900;
     margin-top: 50px;
 }
