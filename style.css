@@ -808,7 +808,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    font-weight: 900;
 }
 
 .btn-atomic-tangerine {
@@ -1162,8 +1163,7 @@ blockquote p{
 }
 
 #bloc-5-cta h2{
-    text-shadow: 0 0 30px #fff!important;
-    color:black!important;
+    color:white!important;
     font-weight: 900;
     margin-top: 50px;
 }
